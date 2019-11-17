@@ -1,35 +1,44 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-julcresus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://juliencresus.com",
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "bootstrap": "^4.3.1",
+    "braces": "^2.3.2",
+    "i": "^0.3.6",
+    "npm": "^6.8.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-ga": "^2.5.7",
+    "react-html-parser": "^2.0.2",
+    "react-responsive-carousel": "^3.1.47",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "http://juliencresus.com",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "git-push": "^0.1.1"
   }
 }
