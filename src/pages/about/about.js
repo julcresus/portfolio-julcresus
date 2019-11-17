@@ -17,7 +17,7 @@ const About = () => (
   <div class="row justify-content-center">
     <div class="col-xl-4 col-md-6 col-sm-12">
       <img
-        src="img/profilepic.png"
+        src="img/profilepic.jpeg"
         alt="profilepic"
         class="img-responsive profilepic"
       />
