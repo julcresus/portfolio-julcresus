@@ -1,5 +1,64 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.row
+{
+  display: flex;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  font-family: roboto;
+  line-height: 20pt;
+  font-size: 16px;
+  padding: 15px;
+}
+
 .App {
   text-align: center;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  float: left;
 }
 
 .App-logo {
@@ -13,19 +72,65 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
+}
+
+.header
+{
+  height: 10vh;
+text-align: center;
+font-size: 25pt;
+padding-top: 20px;
+font-family: adobe-garamond-pro, serif;
+}
+.header a:visited
+{
+  color: black
+}
+.subheader
+{
+  height: 10vh;
+  text-align: center;
+  font-size: 15pt;
+  font-family: adobe-garamond-pro, serif;
+  
+}
+.container
+{
+  float: left;
+  width: 100%;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  height: 80vh;
+}
+.description
+{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  
+}
+.description ul{
+  list-style: inside;
+}
+.intro
+{
+  width: 80%;
+  margin: auto;
+  font-size: 20pt;
+  margin-top: 35%;
+}
+.bottom_button
+{
+  height: 10vh;
+  float: left;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+h1{
+  font-weight: 800 !important;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +140,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+.projects
+{
+  float: left;
+  width: 100%;
+  font-family: adobe-garamond-pro, serif;
+  font-size: 24pt;
+  line-height: 36pt;
+}
+.tags
+{
+  font-family: "Roboto Mono", sans-serif;
+  color: #999;
+  font-size: 10pt;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.button
+{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15pt;
+  border: 1px solid #dee6f1;
+  border-radius: 4px;
+  width: 20vh;
+  margin: auto;
+  padding: 16px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  line-height: 16px;
+  color: #1a73e8;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.button:hover{
+    border-color: #c0d5f1;
+    background-color: rgba(26, 115, 232, 0.08);
+}
+a
+{
+  text-decoration: none !important
+}
+.project{
+  margin-bottom: 40px;
+}
+.project-title
+{
+  font-family: adobe-garamond-pro, serif;
+  font-size: 24pt;
+  line-height: 36pt;
+}
+.project{
+  float: left;
+  text-align: left;
+}
+.footer
+{
+  float: left;
+  width: 100%;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+
+}
+.outro
+{
+  width: 80%;
+  margin: auto;
+  font-size: 20pt;
+  margin-top: 5%;
 }
